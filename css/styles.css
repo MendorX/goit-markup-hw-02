@@ -71,7 +71,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;}
-.social-item-link:hover {
+.social-item-link:hover,
+.social-item-link:focus
+ {
   color: #404bbf;       
 }
 /* #endregion header */
