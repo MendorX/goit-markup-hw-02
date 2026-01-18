@@ -17,7 +17,7 @@ ul {
 
 .main-header {
 }
-.main-header .header-title {
+.header-title {
  font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -111,10 +111,14 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 letter-spacing: 0.04em;
 cursor: pointer;
 }
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
 /* #endregion hero */
 /* #region features */
 .features-section {
-    background-color: #f4f4fd;
+    background-color: #ffffff;
 }
 .features-list {
 }
@@ -139,7 +143,6 @@ letter-spacing: 0.02em;
 /* #region team */
 
 .our-team-section{
-    padding: 80px 0;
     background-color: #f4f4fd;
 }
 .our-team-tittle{
@@ -152,14 +155,10 @@ text-align: center;
 .our-team-list{
 }
 .our-team-item{
-border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px;
-width: 360px;
 background-color: #ffffff;
 }
 .employe-photo{
-  width: 360px;
-  height: 300px;
+
 }
 
 .employe-name{
@@ -194,11 +193,10 @@ color: #2E2F42;
 
 }
 .portfolio-list-item{
-    width: 360px;
-height: 420px;
+
 }
 .portfolio-item-title{
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -214,7 +212,6 @@ letter-spacing: 0.02em;
 /* #endregion main */
 /* #region footer */
 .footer {
-    padding: 48px 0;
     background-color: #2E2F42;
 }
 .title-end {
